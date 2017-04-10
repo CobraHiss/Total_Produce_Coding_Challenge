@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:11421/ProductService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ProductService" />
+  <xs:element name="GetAllProducts">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllProductsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ProductService" minOccurs="0" name="GetAllProductsResult" nillable="true" type="q1:ArrayOfProduct" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProductsById">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="productIdIn" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProductsByIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/ProductService" minOccurs="0" name="GetProductsByIdResult" nillable="true" type="q2:ArrayOfProduct" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertProduct">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="productIdIn" type="xs:int" />
+        <xs:element minOccurs="0" name="productNameIn" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="productTypeIn" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="productDescriptionIn" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="productPriceIn" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertProductResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateProduct">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="productIdIn" type="xs:int" />
+        <xs:element minOccurs="0" name="productNameIn" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="productTypeIn" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="productDescriptionIn" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="productPriceIn" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateProductResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteProduct">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="productIdIn" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteProductResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

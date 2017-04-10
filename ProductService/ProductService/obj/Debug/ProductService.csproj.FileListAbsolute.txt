@@ -10,3 +10,9 @@ C:\Users\User\Desktop\tp\totalproducecodingchallenge\ProductService\ProductServi
 C:\Users\User\Desktop\tp\totalproducecodingchallenge\ProductService\ProductService\obj\Debug\ProductService.csprojResolveAssemblyReference.cache
 C:\Users\User\Desktop\tp\totalproducecodingchallenge\ProductService\ProductService\obj\Debug\ProductService.dll
 C:\Users\User\Desktop\tp\totalproducecodingchallenge\ProductService\ProductService\obj\Debug\ProductService.pdb
+C:\Users\User\Desktop\total produce\tp\totalproducecodingchallenge\ProductService\ProductService\bin\ProductService.dll.config
+C:\Users\User\Desktop\total produce\tp\totalproducecodingchallenge\ProductService\ProductService\bin\ProductService.dll
+C:\Users\User\Desktop\total produce\tp\totalproducecodingchallenge\ProductService\ProductService\bin\ProductService.pdb
+C:\Users\User\Desktop\total produce\tp\totalproducecodingchallenge\ProductService\ProductService\obj\Debug\ProductService.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\total produce\tp\totalproducecodingchallenge\ProductService\ProductService\obj\Debug\ProductService.dll
+C:\Users\User\Desktop\total produce\tp\totalproducecodingchallenge\ProductService\ProductService\obj\Debug\ProductService.pdb
