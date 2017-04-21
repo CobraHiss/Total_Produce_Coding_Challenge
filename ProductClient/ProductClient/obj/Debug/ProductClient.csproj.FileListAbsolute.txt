@@ -54,3 +54,6 @@ C:\Users\User\Desktop\client\ProductClient\ProductClient\obj\Debug\ProductClient
 C:\Users\User\Desktop\client\ProductClient\ProductClient\bin\Debug\DevExpress.Mvvm.v16.2.DataModel.WCF.dll
 C:\Users\User\Desktop\client\ProductClient\ProductClient\bin\Debug\DevExpress.Mvvm.v16.2.DataModel.dll
 C:\Users\User\Desktop\client\ProductClient\ProductClient\bin\Debug\DevExpress.Mvvm.v16.2.DataModel.WCF.xml
+C:\Users\User\Desktop\total produce\tp\totalproducecodingchallenge\ProductClient\ProductClient\bin\Debug\ProductClient.exe.config
+C:\Users\User\Desktop\total produce\tp\totalproducecodingchallenge\ProductClient\ProductClient\obj\Debug\ProductClient.exe
+C:\Users\User\Desktop\total produce\tp\totalproducecodingchallenge\ProductClient\ProductClient\obj\Debug\ProductClient.pdb
